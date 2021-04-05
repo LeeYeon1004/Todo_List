@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/font/fontawesome - 5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <title>Todo_List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header__container">
+            <h2 class="header__title">
+                Todo-List
+            </h2>
+            <div class="header__input">
+                <div class="header__input--container">
+                    <input type="text" id="input" class="header__input--content" placeholder="input">
+                    <!-- danh sách -->
+                    <div class="list__container">
+                        <span class="list__title">Danh sách</span>
+                        <ul id="ulList" class="list">
+                            <li class="list__content">Iphone 12 pro</li>
+                            <li class="list__content">Iphone XSMax</li>
+                            <li class="list__content">Macbook pro</li>
+                        </ul>
+                    </div>
+                </div>
+                <button onclick="newAdd()" class="header__btn">Thêm mới</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/css/style.js"></script>
+</body>
+</html>
